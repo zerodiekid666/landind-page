@@ -1,0 +1,2 @@
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://dich-vu-bao-ve.congtybaovethanglong.com/ [L,R=301]
